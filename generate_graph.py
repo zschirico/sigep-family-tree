@@ -65,7 +65,7 @@ def gen_graph(fraternity):
 
 def main():
     if len(sys.argv) != 2:
-        print("Useage: python3 generate_graph.py <csv file>")
+        print("Useage: python3 generate_graph.py <SigEp.csv>")
         return
     
     # Create the fraternity object based on the inputted csv
