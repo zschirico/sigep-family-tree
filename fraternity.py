@@ -27,7 +27,7 @@ class Fraternity(object):
 
         # Parse the CSV, adding all data into an array
         with open(data, mode ='r') as file:
-            csv_reader = csv.reader(file) 
+            csv_reader = csv.reader(SigEp.csv) 
             for line in csv_reader:
                 data_arr += [line]
                 
